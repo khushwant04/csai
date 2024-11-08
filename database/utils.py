@@ -1,6 +1,3 @@
-
-
-
 def clean_empty_spaces(collection):
     # Find and clean documents
     for document in collection.find():
