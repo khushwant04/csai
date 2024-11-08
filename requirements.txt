@@ -3,3 +3,5 @@ torch
 torchvision
 ultralytics
 matplotlib
+fastapi[all]
+uvicorn
