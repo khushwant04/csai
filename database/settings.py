@@ -16,3 +16,9 @@ client = setup_client(cfg)
 db = client[cfg['database']]
 collection = db[cfg['collection']]
      
+query = {"USN":"1AM23CI062"}     
+info = collection.find(query)
+for x in info:
+    print(x)
+    name = x['Student Name']
+    print(name)
